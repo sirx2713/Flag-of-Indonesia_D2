@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #3C486B;
+    color: white;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px;
+}
+#container > #red-box{
+    background-color: #ff0000;
+}
+#container > #white-box{
+    background-color: white;
+}
